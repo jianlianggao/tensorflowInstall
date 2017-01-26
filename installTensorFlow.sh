@@ -15,4 +15,5 @@ bash Anaconda3-4.2.0-Linux-x86_64.sh -b
 echo 'export PATH=$HOME/anaconda3/bin:$PATH' >> ~/.bashrc
 #sudo chown <user name>:<user group> anaconda3/ -R (if necessary)
 source ~/.bashrc
+#--ignore-installed for ignoring the easy-install error, which commonly happens.
 pip install --upgrade --ignore-installed https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.10.0rc0-cp35-cp35m-linux_x86_64.whl
